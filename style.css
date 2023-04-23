@@ -1,0 +1,122 @@
+body {
+    background-color: white;
+    color: #bfa38a;
+    font-family: monospace;
+    background-image: url("https://cdn.pixabay.com/photo/2017/06/13/13/43/white-2398914_960_720.png");
+    background-repeat: no-repeat;
+    background-size:10%;
+   
+  }
+  
+  main {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  img {
+    border: 1px solid black;
+    border-radius: 20px;
+    max-width: 450px;
+    width: 100%;
+    margin-left: auto;
+    margin-top: 100px;
+    
+    
+  }
+  
+  p {
+    color: #8097a6;
+  }
+  
+  .attribution {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    font-size: 0.8rem;
+    background-color: #8097a6;
+    padding: 10px;
+    border-radius: 5px;
+    color: #1d2326;
+    box-shadow: 1px 2px 5px 1px rgba(255, 255, 255, 0.2);
+  }
+  
+.reveal-btn{
+    color: black;
+    border: none;
+    text-decoration:underline;
+}
+.reveal-btn:hover{
+    color: green;
+}
+  h1{
+    text-align: center;
+    padding-left: 200px;
+    color:darkslategrey;
+    text-shadow: #1d2326;
+    
+  }
+  h2{
+    color: darkslategrey;
+    font-family: sans-serif;
+  }
+  h4{
+    padding-left: 200px;
+  }
+  
+  .content {
+    width: 65%;
+    padding-left: 100px;
+    padding-right: 40px;
+    text-align: center;
+    font-size: x-large;
+    font-family: sans-serif;
+  }
+  
+  .content p {
+    max-width: 80%;
+  }
+  .meme-content{
+  padding-left: 200px;
+  }
+  .quote-content,.riddle-content{
+    padding-left: 200px;
+    margin-top: 200px;
+    font-size: larger;
+  }
+  
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-left: thick, #bfa38a;
+    height: 85vh;
+    margin-top: 200px;
+    margin-left: 200px;
+   
+  }
+  
+  button {
+    margin-left: 40px;
+    width: 200px;
+    max-width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 50px;
+    border: 2px dotted #bfa38a;
+    background: transparent;
+    color:#bfa38a;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: large;
+  }
+  
+  button:hover {
+    color: darkslategrey;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  
+  
